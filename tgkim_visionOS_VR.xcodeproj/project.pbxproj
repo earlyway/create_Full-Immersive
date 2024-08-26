@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		96A08ADC2C7725A600942B9F /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = 96A08ADB2C7725A600942B9F /* RealityKitContent */; };
 		96A08ADE2C7725A600942B9F /* tgkim_visionOS_VRApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A08ADD2C7725A600942B9F /* tgkim_visionOS_VRApp.swift */; };
-		96A08AE02C7725A600942B9F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A08ADF2C7725A600942B9F /* ContentView.swift */; };
+		96A08AE02C7725A600942B9F /* ImmersiveControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A08ADF2C7725A600942B9F /* ImmersiveControlView.swift */; };
 		96A08AE22C7725A700942B9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96A08AE12C7725A700942B9F /* Assets.xcassets */; };
 		96A08AE52C7725A700942B9F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96A08AE42C7725A700942B9F /* Preview Assets.xcassets */; };
 		96A08AF02C7725A700942B9F /* tgkim_visionOS_VRTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A08AEF2C7725A700942B9F /* tgkim_visionOS_VRTests.swift */; };
@@ -29,7 +29,7 @@
 		96A08AD62C7725A600942B9F /* tgkim_visionOS_VR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tgkim_visionOS_VR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96A08ADA2C7725A600942B9F /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
 		96A08ADD2C7725A600942B9F /* tgkim_visionOS_VRApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tgkim_visionOS_VRApp.swift; sourceTree = "<group>"; };
-		96A08ADF2C7725A600942B9F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		96A08ADF2C7725A600942B9F /* ImmersiveControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmersiveControlView.swift; sourceTree = "<group>"; };
 		96A08AE12C7725A700942B9F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		96A08AE42C7725A700942B9F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		96A08AE62C7725A700942B9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -79,7 +79,7 @@
 			isa = PBXGroup;
 			children = (
 				96A08ADD2C7725A600942B9F /* tgkim_visionOS_VRApp.swift */,
-				96A08ADF2C7725A600942B9F /* ContentView.swift */,
+				96A08ADF2C7725A600942B9F /* ImmersiveControlView.swift */,
 				96A08AE12C7725A700942B9F /* Assets.xcassets */,
 				96A08AE62C7725A700942B9F /* Info.plist */,
 				96A08AE32C7725A700942B9F /* Preview Content */,
@@ -214,7 +214,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				96A08AE02C7725A600942B9F /* ContentView.swift in Sources */,
+				96A08AE02C7725A600942B9F /* ImmersiveControlView.swift in Sources */,
 				96A08ADE2C7725A600942B9F /* tgkim_visionOS_VRApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
